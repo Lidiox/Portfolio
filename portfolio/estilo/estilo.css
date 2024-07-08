@@ -5,6 +5,7 @@
     --secudarycolor: #1f1f1f;
     --linkcolor: white;
     --brandcolor: #F25252; 
+    --primaryopacitycolor: #1f1f1fe0;
 }
 
 *{
@@ -16,6 +17,8 @@ body{
 }
 header{
     background-color: var(--primarycolor);
+    background: url('../img/header-background.jpg')no-repeat center center;
+    background-size: cover;
 }
 header a{
     text-decoration: none;
@@ -32,6 +35,9 @@ header .container{
 }
 header .container h2 a{
     color: var(--brandcolor);
+}
+header nav{
+    background-color: var(--primaryopacitycolor);
 }
 header nav ul{
     display: flex;
@@ -58,6 +64,7 @@ header .hero{
     height: 80vh;
     display: flex;
     align-items: center;
+    background-color: var(--primaryopacitycolor);
 }
 header .hero p{
     color: #c1c1c1;
@@ -82,6 +89,7 @@ header .footer{
     display: flex;
     justify-content: center;
     align-items: end;
+    background-color: var(--primaryopacitycolor);
 }
 header .footer p{
     color: var(--linkcolor);
@@ -139,6 +147,7 @@ main h2{
 }
 #section-skills{
     background-color: var(--primarycolor);
+    padding: 100px 0px;
 }
 #section-skills .container{
     width: 55%;
@@ -168,6 +177,9 @@ main h2{
 .bar-value{   
     height: 100%;
     background-color: var(--brandcolor);
+}
+#section-portfolio{
+    background-color: var(--secudarycolor);
 }
 @media only screen and (max-width: 760px){
     header nav ul{
