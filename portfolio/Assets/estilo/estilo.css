@@ -15,7 +15,6 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    overflow-y: hidden;
 }
 header{
     background-color: var(--primarycolor);
@@ -127,12 +126,15 @@ main h2{
 .box-img{
     flex: 1 1 200px;
     background-color: var(--brandcolor);
-    height: 350px;
+    background: url("../img/Lidio.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
     border-radius: 20px 0px 0px 20px;
 }
 .box-content{
     flex: 2 1 300px;
-    padding: 20px;
+    padding: 5px 20px;
 }
 .box-content p{
     text-align: justify;
@@ -152,6 +154,7 @@ main h2{
     background-color: var(--brandcolor);
     width: 100px;
     color: var(--linkcolor);
+    cursor: pointer;
 }
 #section-skills{
     background-color: var(--primarycolor);
