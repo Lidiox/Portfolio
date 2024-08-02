@@ -144,6 +144,7 @@ main h2{
 .box-content span{
     color: var(--brandcolor);
 }
+
 .box-content .pai-button{
     text-align: left;
     padding-top: 20px;
@@ -167,10 +168,15 @@ main h2{
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
-.box-section-skills p{
-    color: var(--linkcolor);
-    padding: 15px 0px;
+.box-section-skills > div{
+    width: 20%;
+    padding: 20px;
+}
+svg{
+    fill: var(--brandcolor);
 }
 .box-skills-1{
     flex: 1 1 400px;
