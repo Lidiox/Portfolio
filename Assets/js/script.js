@@ -1,15 +1,11 @@
 const hamburger = document.querySelector('#humberger');
 const navmenu = document.querySelector('.nav-menu');
-<<<<<<< HEAD
-=======
 const link_item = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll('section');
 const text = "Desenvolvidor WEB";
 const speed = 100; // Velocidade de digitação em ms
 let i = 0;
 
-  
->>>>>>> aa91bb7 (initicial commit)
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
@@ -18,9 +14,6 @@ hamburger.addEventListener('click', () => {
 document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navmenu.classList.remove('active');
-<<<<<<< HEAD
-}))
-=======
 }))
 /*
 link_item.forEach(item => {
@@ -86,6 +79,7 @@ function type() {
       setTimeout(type, speed);
     }
   }
-
+  
   type();
->>>>>>> aa91bb7 (initicial commit)
+
+
