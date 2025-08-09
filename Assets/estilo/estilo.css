@@ -206,12 +206,17 @@ main h2{
 
     
 }
-.box-section-skills > div{
-    width: 30%;
-    padding: 20px;
+#section-skills > .container > .box-section-skills >  div{
+    width: 45%;
+    padding: 20px;  
+    border-radius: 10px;
+}
+#section-skills > .container > .box-section-skills >  div:hover{
+    background-color: var(--primaryopacitycolor);   
 }
 svg{
     fill: var(--brandcolor);
+
 }
 
 .bar-section-skills{
@@ -225,14 +230,17 @@ svg{
 }
 #section-portfolio{
     background-color: var(--secudarycolor);
+    padding: 5px 0px;
 }
 .container-portfolio{
     width: 80%;
     margin: 0px auto;
     padding-bottom: 50px;
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    gap: 10px;
 }
 
 
@@ -252,7 +260,7 @@ svg{
     text-decoration: none;
 }
 .container-portfolio > #card > a > .card-img{
-    height: 250px;
+    height: 200px;
     border-radius: 10px 10px 0px 0px;
 }
 .container-portfolio > #card > a > .card-img > img{ 
@@ -263,7 +271,9 @@ svg{
 .container-portfolio > #card > a > .card-body{
     padding: 20px;
 }
-
+.container-portfolio > #card > a > .card-body > p > span{
+    color: var(--brandcolor);
+}
 .item{
     border: 1px solid white;
     width: 30%;
