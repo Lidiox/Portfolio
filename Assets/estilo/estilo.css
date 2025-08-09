@@ -39,6 +39,7 @@ header > nav > .container{
 }
 header > nav > .container > h2 > a{
     color: var(--brandcolor);
+    text-decoration: none;
 }
 header > nav > .container > ul{
     display: flex;
@@ -96,7 +97,7 @@ header > .hero > .hero-content > h1{
 header > .hero > .hero-content > h2 {
     color:white;
 }
-header > .hero > .hero-content > span{
+header > .hero > .hero-content > p > span{
     color: var(--brandcolor);
 }
 
