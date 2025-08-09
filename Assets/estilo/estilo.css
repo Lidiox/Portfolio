@@ -151,7 +151,8 @@ main h2{
     flex-wrap: wrap;
 }
 .box-img{
-
+    border-radius: 10px;
+    flex-basis: 300px;
     background-color: var(--brandcolor);
     background: url("../img/Lidio.jpg") no-repeat;
     background-size: cover;
@@ -159,7 +160,6 @@ main h2{
 
 }
 .box-content{
-   
     height: 350px;
     border-radius: 20px;
 }
