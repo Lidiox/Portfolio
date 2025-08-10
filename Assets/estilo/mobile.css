@@ -37,6 +37,66 @@
     .box-img{
         border-radius: 20px 20px 0px 0px;
     }
+    
+main #section-about{
+    background-color: var(--secudarycolor);
+    padding: 5px 0px;
+}
+main .container{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+main h2{
+    color: var(--linkcolor);
+    padding-top: 25px;
+    font-size: 30pt;
+    text-align: center;
+}
+.box-sectionabout{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-img{
+    border-radius: 10px;
+    flex-basis: 500px;
+    
+    background-color: var(--brandcolor);
+    background: url("../img/Lidio.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.box-content{
+    height: 450px;
+    border-radius: 20px;
+}
+.box-content{
+    flex: 2 1 400px;
+    padding: 20px 20px;
+}
+.box-content p{
+    text-align: justify;
+    color: var(--linkcolor);
+    line-height: 20pt;
+}
+.box-content span{
+    color: var(--brandcolor);
+}
+
+.box-content .pai-button{
+    text-align: left;
+    padding-top: 20px;
+}
+.box-content button{
+    border: none;
+    padding: 10px;
+    background-color: var(--brandcolor);
+    width: 100px;
+    color: var(--linkcolor);
+    cursor: pointer;
+}
     .box-section-skills{
         padding-top: 50px;
         display: grid;
