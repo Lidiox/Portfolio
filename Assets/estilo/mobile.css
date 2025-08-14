@@ -37,7 +37,30 @@
     .box-img{
         border-radius: 20px 20px 0px 0px;
     }
-    
+    header > .hero > .hero-content {
+        padding-top: 50px;
+    }
+    #contacts{
+        display: block;
+        padding-top: 20px;
+    }
+    #contacts > ul{
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+    }
+    #contacts > ul > li{
+        margin-left: 20px;
+        transition: all 1s;
+    }
+    #contacts > ul > li:hover{
+        border-bottom: 1px solid var(--brandcolor);
+    }
+    #contacts > ul > li > a{
+        text-decoration: none;
+        color: var(--linkcolor);
+        transition: all 0.2s;
+    }
 main #section-about{
     background-color: var(--secudarycolor);
     padding: 5px 0px;

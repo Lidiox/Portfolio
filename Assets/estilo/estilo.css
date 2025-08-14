@@ -117,6 +117,9 @@ header > .hero > .hero-img > img{
     width: 50%;
     height: 50%;
 }
+#contacts{
+    display: none;
+}
 header .footer{
     height: 13vh;
     display: flex;
